@@ -10,7 +10,7 @@ plugins {
     alias(libs.plugins.androidApplication)
     alias(libs.plugins.composeMultiplatform)
     alias(libs.plugins.composeCompiler)
-
+    kotlin("plugin.serialization") version "1.9.0"
 }
 
 repositories {
@@ -71,7 +71,7 @@ kotlin {
             implementation(libs.voyager.transitions)
             implementation(libs.voyager.tabNavigator)
             implementation(libs.jetbrains.compose.navigation)
-
+            implementation("org.slf4j:slf4j-nop:2.0.9")
             implementation("io.ktor:ktor-client-core:2.3.0") // Cliente HTTP
             implementation("io.ktor:ktor-client-content-negotiation:2.3.0")
             implementation("io.ktor:ktor-serialization-kotlinx-json:2.3.0")
