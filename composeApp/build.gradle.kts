@@ -53,6 +53,7 @@ kotlin {
         androidMain.dependencies {
             implementation(compose.preview)
             implementation(libs.androidx.activity.compose)
+            implementation("io.ktor:ktor-client-android:2.3.0")
 
         }
         commonMain.dependencies {
@@ -70,6 +71,16 @@ kotlin {
             implementation(libs.voyager.transitions)
             implementation(libs.voyager.tabNavigator)
             implementation(libs.jetbrains.compose.navigation)
+
+            implementation("io.ktor:ktor-client-core:2.3.0") // Cliente HTTP
+            implementation("io.ktor:ktor-client-content-negotiation:2.3.0")
+            implementation("io.ktor:ktor-serialization-kotlinx-json:2.3.0")
+            implementation("media.kamel:kamel-image:0.7.0")
+            implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.7")
+           
+
+
+            
 
 
         }
