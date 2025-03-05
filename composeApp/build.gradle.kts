@@ -72,6 +72,14 @@ kotlin {
             implementation(libs.jetbrains.compose.navigation)
 
 
+
+                implementation("com.squareup.retrofit2:retrofit:2.9.0") // Retrofit
+                implementation("com.squareup.retrofit2:converter-gson:2.9.0") // Conversión JSON a objetos
+                implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1") // ViewModel
+
+            
+
+
         }
         desktopMain.dependencies {
             implementation(compose.desktop.currentOs)
