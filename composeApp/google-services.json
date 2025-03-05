@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "402054606165",
+    "project_id": "atlasinventory-8fde4",
+    "storage_bucket": "atlasinventory-8fde4.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:402054606165:android:d14a2186c76215d43353dc",
+        "android_client_info": {
+          "package_name": "com.sisaalpha.composeapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkwabzRWS4_9ecAiHPD1dn1As8L9A_E6o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:402054606165:android:a9e22f36211e3e643353dc",
+        "android_client_info": {
+          "package_name": "com.stevdza_san.firebaseauth"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkwabzRWS4_9ecAiHPD1dn1As8L9A_E6o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
