@@ -1,18 +1,35 @@
-aThis is a Kotlin Multiplatform project targeting Android, Web, Desktop.
+# 🌍 PracticaAPI – Kotlin Multiplatform Project
 
-* `/composeApp` is for code that will be shared across your Compose Multiplatform applications.
-  It contains several subfolders:
-  - `commonMain` is for code that’s common for all targets.
-  - Other folders are for Kotlin code that will be compiled for only the platform indicated in the folder name.
-    For example, if you want to use Apple’s CoreCrypto for the iOS part of your Kotlin app,
-    `iosMain` would be the right folder for such calls.
+Este proyecto fue desarrollado por **Alejandro, Johan y SISA** como parte de una práctica de programación usando **Kotlin Multiplatform**, apuntando a la creación de aplicaciones para **Android, Web y Escritorio** desde un solo código base. 💻📱🌐
 
+---
 
-Learn more about [Kotlin Multiplatform](https://www.jetbrains.com/help/kotlin-multiplatform-dev/get-started.html),
-[Compose Multiplatform](https://github.com/JetBrains/compose-multiplatform/#compose-multiplatform),
-[Kotlin/Wasm](https://kotl.in/wasm/)…
+## 🚀 Descripción
 
-We would appreciate your feedback on Compose/Web and Kotlin/Wasm in the public Slack channel [#compose-web](https://slack-chats.kotlinlang.org/c/compose-web).
-If you face any issues, please report them on [GitHub](https://github.com/JetBrains/compose-multiplatform/issues).
+`PracticaAPI` es un proyecto estructurado con Kotlin Multiplatform + Compose para desarrollar interfaces que se adapten a distintos sistemas desde una única base lógica.  
+Está orientado a la práctica del uso compartido de código (shared code) y compilación en distintos targets como Android, navegador y escritorio.
 
-You can open the web applPication by running the `:composeApp:wasmJsBrowserDevelopmentRun` Gradle task.
+---
+
+## 🛠️ Tecnologías Usadas
+
+- 🧠 **Kotlin Multiplatform**
+- 🖌️ **JetBrains Compose Multiplatform**
+- ⚙️ **Gradle Kotlin DSL**
+- 🌐 **WebAssembly (para la versión web)**
+
+---
+
+## 📁 Estructura del Proyecto
+
+├── composeApp/ # Código compartido entre plataformas │ ├── commonMain/ # Lógica común │ └── otrosTargets/ # Código específico por plataforma ├── kotlin-js-store/ # Almacenamiento web (JS) ├── build.gradle.kts # Configuración del proyecto ├── settings.gradle.kts # Configuración general ├── README.md # Este archivo
+
+---
+
+## ▶️ Cómo ejecutar
+
+1. Clona el repositorio:
+
+```bash
+git clone https://github.com/SISA0729/PracticaAPI.git
+cd PracticaAPI
